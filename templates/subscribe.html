@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title">Subscribe for the latest health events and news!</h5>
+  </div>
+  <div class="card-body">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <button type="submit" class="btn btn-success">Complete Subscription</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
