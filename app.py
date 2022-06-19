@@ -1,9 +1,9 @@
 from flask import Flask, render_template
 import configcatclient
 
-configcat_client = configcatclient.create_client('JjfaCL3OkE-K7KlUIm5bjw/p9xZ6rbmiUiIOY-ylC4Gnw')
+configcat_client = configcatclient.create_client('xVDaCOo_-UKEeY1TeoFYHw/shuqm43hLE2LZQmMbrp8nw')
 
-isMyAwesomeFeatureEnabled = configcat_client.get_value('canshowtrendingmovies', False)
+isCanShowSubscriptionPageEnabled = configcat_client.get_value('canshowsubscriptionpage', False)
 
 app = Flask(__name__)
 
@@ -13,7 +13,7 @@ def index():
 
 @app.route('/subscribe')
 def subscribe():
-    if isMyAwesomeFeatureEnabled:
+    if isCanShowSubscriptionPageEnabled:
         return render_template('subscribe.html')
     else:
         return render_template('not-available.html')
