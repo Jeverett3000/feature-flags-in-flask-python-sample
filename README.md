@@ -7,6 +7,8 @@ This app is a fictional movie app called AcmeTV Shows built with the Nuxt.js fra
 
 Here is what it looks like:
 
+![image](https://user-images.githubusercontent.com/74829200/174487938-e0138ed0-098a-4e2a-8522-4e6032af1a7f.png)
+
 ## How it works
 
 The app has three (3) pages:
