@@ -44,12 +44,12 @@ pip install -r requirements.txt
 
 ```
 
-5. Set the Flask environment to DEVELOPMENT:
+5. Set the Flask environment to development:
 
-'''bash
+```bash
 export FLASK_ENV=development
 
-'''
+```
 
 5. Start the Flask app by running:
 
