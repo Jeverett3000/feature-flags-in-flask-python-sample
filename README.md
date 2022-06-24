@@ -51,7 +51,7 @@ export FLASK_ENV=development
 
 ```
 
-5. Start the Flask app by running:
+6. Start the Flask app by running:
 
 ```bash
 flask run
