@@ -37,7 +37,26 @@ virtualenv venv
 source venv/bin/activate
 ```
 
-3. Install the required python packages by running:
+4. Install the required python packages by running:
+
+```bash
+pip install -r requirements.txt
+
+```
+
+5. Set the Flask environment to DEVELOPMENT:
+
+'''bash
+export FLASK_ENV=development
+
+'''
+
+5. Start the Flask app by running:
+
+```bash
+flask run
+
+```
 
 ## Reference
 
