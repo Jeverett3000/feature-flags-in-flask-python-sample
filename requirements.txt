@@ -12,5 +12,5 @@ MarkupSafe==2.1.1
 requests==2.27.1
 semver==2.13.0
 urllib3==1.26.9
-Werkzeug==2.1.2
+Werkzeug==2.2.3
 zipp==3.8.0
